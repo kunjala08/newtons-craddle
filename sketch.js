@@ -62,7 +62,7 @@ function draw() {
   rectMode(CENTER);
  
   bob1.display();
-  keyPressed();
+ 
   bob2.display();
   bob3.display();
   bob4.display();
@@ -84,7 +84,7 @@ function keyPressed (){
     if(keyCode === UP_ARROW){
         console.log("hi")
       
-    Matter.Body.applyForce(bob1.body,bob1.body.position,{x:-90,y:70})
+    Matter.Body.applyForce(bob1.body,bob1.body.position,{x:-200,y:200})
     
     
     }
